@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+hr{
+    border-style: none;
+    border-top-style: dotted ;
+    border-color: #7fbd74;
+    opacity: 0.5;
+    border-width: 5px;
+    width: 6%;
+    margin: 50px auto;
+  }
+h1{
+    color: #386869;
+    margin: 50px auto 0 auto;
+    font-family: 'Yomogi', cursive;
+    font-size: 3.75rem;
+    line-height: 2;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 200%;
+    color: #386869;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-size: 1.25rem;
+    color: #226869;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-container{
+    background-color: #D2FAFB;
+    position: relative;
+    padding-top: 80px;
+}
+.middle-container{
+    padding: 20px;
+    background-color: #f1fdee;
+}
+.bottom-container{
+    padding: 20px;
+    background-color: #daebd7;
+}
+.top-cloud{
+   position: absolute;
+   right: 300px;
+   top: 75px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 200px;
+}
+.programmer{
+    color: #386869;
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+}
+.profile{
+    padding: 30px;
+    width: 50%;
+    margin: 0 auto 40px auto;
+}
+.profilepic{
+    width: 150px;
+    height: 150px;
+}
+.intro{
+    width: 70%;
+    margin: auto;
+    line-height: 1.5;
+}
+.skills{
+    margin-top: 80px;
+}
+.skillpic{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 30px;
+}
+.skillrow{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-left: 30px;
+}
+.contactpic{
+    width: 150px;
+    height: 150px;
+}
+.skill-row{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.contact-me{
+    padding: 20px;
+    width: 50%;
+    margin: 0px auto 50px auto;
+}
+a{
+    color: #226869;
+    text-decoration: none;
+    padding: 15px;
+}
+a:hover{
+    color: #65af52;
+}
+.copyright{
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    height: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+    font-family: Tahoma;
+    width: 130px;
+    font-size: 15px;
+    padding: 0;
+    background-color: #427D7E;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+ }
+ 
+ .btn:hover {
+    background: #175051;
+    border: solid #FFFFFF 2px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+ }
